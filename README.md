@@ -11,4 +11,3 @@ Le cours 4N6 traite d'une communication client serveur entre:
 Les communications se font par:
 - des appels HTTP du client vers le serveur
 - des données encodés en JSON puis via UTF 8
-
