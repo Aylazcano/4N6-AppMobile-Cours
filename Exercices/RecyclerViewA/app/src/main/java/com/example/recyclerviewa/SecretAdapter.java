@@ -1,9 +1,12 @@
 package com.example.recyclerviewa;
 
+import android.os.Build;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
+
+import androidx.annotation.RequiresApi;
 import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.ArrayList;
@@ -52,12 +55,13 @@ public class SecretAdapter extends RecyclerView.Adapter<SecretAdapter.ViewHolder
     }
 
     // Replace the contents of a view (invoked by the layout manager)
+    @RequiresApi(api = Build.VERSION_CODES.O)
     @Override
     public void onBindViewHolder(ViewHolder viewHolder, final int position) {
 
         // Get element from your dataset at this position and replace the
         // contents of the view with that element
-        viewHolder.getTextView().setText(localDataSet.get(position).toString());
+        viewHolder.getTextView().setText(localDataSet.get(position).getFormattedString());
     }
 
     // Return the size of your dataset (invoked by the layout manager)
