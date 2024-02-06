@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TiroirB</string>
+    <string name="drawer_open">Close me</string>
+    <string name="drawer_close">Open me</string>
+</resources>
