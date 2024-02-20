@@ -1,0 +1,6 @@
+👨‍🎓👨‍🎓 Exercice RetrofitSimple
+Créez un projet appelé RetrofitSimple. Le web service ici prend un nombre et retourne son double.
+
+Vous devez démontrer un appel avec succès à ce web service dans une application Android depuis l'interface graphique.
+
+Par exemple, une activité avec un EditText pour le nombre et un bouton pour déclencher l'appel. Au retour de la valeur (doublée), celle-ci est affichée dans un Toast.
