@@ -1,13 +1,11 @@
 package com.example.retrofitsimple.http;
 
-import java.util.List;
-
-import model.DoubleResponse;
+import model.IntResponse;
 import retrofit2.Call;
 import retrofit2.http.GET;
-import retrofit2.http.Query;
+import retrofit2.http.Path;
 
 public interface Service {
-        @GET("double")
-        Call<DoubleResponse> getDouble(@Query("number") double number);
+        @GET("{intDouble}")
+        Call<String> getDouble(@Path("intDouble") int intDouble);
 }

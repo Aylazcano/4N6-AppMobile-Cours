@@ -5,6 +5,9 @@
       <entry key="app">
         <State />
       </entry>
+      <entry key="multiplication_isCorrect()">
+        <State />
+      </entry>
     </value>
   </component>
 </project>
