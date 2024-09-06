@@ -51,7 +51,7 @@ Les systèmes exposés sont habituellement:
 
 ### Injection Javascript
 
-Essayez d'injecter du javascript dans la base de données et regarder si vous pouvez la déclencher sur le /index du serveur fourni dans le cours.
+Essayez d'injecter du javascript dans la base de données du serveur KickMyB et regardez si vous pouvez le déclencher sur le /index.
 
 Entrainez-vous à décrire dans un fichier texte, la FAILLE que vous avez découvert, décrivez étape par étape comment en tirer partie dans une session EXPLOIT et dans CORRECTIF, expliquez comment vous avez combler la faille.
 
@@ -61,6 +61,6 @@ Ouvrez le projet [suivant](https://github.com/departement-info-cem/4N6-Mobile/tr
 
 Votre enseignant va exécuter le serveur sur son poste. Votre mission sera de pirater le serveur qui est sur le poste de votre enseignant pour modifier la note qui vous a été attribuée sur la plateforme de gestion de note Omnisus.
 
-Entrainez-vous à décrire dans un fichier texte, la FAILLE que vous avez découvert, décrivez étape par étape comment en tirer partie dans une session EXPLOIT et dans CORRECTIF, expliquez comment vous avez combler la faille.
+Entrainez-vous à décrire dans un fichier texte, la FAILLE que vous avez découvert, décrivez étape par étape comment en tirer partie dans une session EXPLOIT et dans CORRECTIF, expliquez comment vous avez comblé la faille.
 
 :::

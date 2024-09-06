@@ -12,7 +12,7 @@ hide_table_of_contents: true
 
 :::tip Avant la séance : théorie (2h)
 
-Vous devez regarder les videos suivantes:
+Vous devez regarder les videos suivantes :
 
 <Video url="https://www.youtube.com/watch?v=wsF3t33jN8Y" />
 
@@ -82,8 +82,8 @@ Par exemple, une activité avec un TextView qui affiche les données retournées
 
 Créez un projet appelé **RetrofitListes**. Le projet doit partir une activité coupée en 2 dans le sens de la hauteur. Chaque moitié est occupée par un recyclerView qui sera peuplé par les appels suivants :
 
-- Webservice [1](https://4n6.azurewebsites.net/exos/long/list) renvoie une liste de Long. Chaque élément dans le recyclerView est un simple champ texte où vous affichez la valeur du nombre.
-- Webservice [2](https://4n6.azurewebsites.net/exos/truc/list) renvoie une liste d'objets complexes. Chaque item du recyclerView doit afficher les 2 champs simples ainsi que la taille de la liste.
+- [Webservice 1](https://4n6.azurewebsites.net/exos/long/list) renvoie une liste de Long. Chaque élément dans le recyclerView est un simple champ texte où vous affichez la valeur du nombre.
+- [Webservice 2](https://4n6.azurewebsites.net/exos/truc/list) renvoie une liste d'objets complexes. Chaque item du recyclerView doit afficher les 2 champs simples ainsi que la taille de la liste.
 
 ## 👨‍🎓🤖 Exercice RetrofitGithub
 
@@ -97,7 +97,7 @@ Dans cet exercice, on vous donne la classe de modèle et on cherche les champs q
 
 L'interface graphique à droite montre les informations nécessaires à l'application.
 
-Créez un fichier **dto.md** dans ton repo exercice pour garder ta réponse avec le format suivant:
+Créez un fichier **dto.md** dans votre repo exercice pour garder votre réponse avec le format suivant :
 ```md
 # PersonneDTO
 - ID: Long
@@ -126,7 +126,7 @@ Créez un fichier **dto.md** dans ton repo exercice pour garder ta réponse avec
 On reprend l'exercice précédent mais avec maintenant deux classes modèles. On cherche les champs qu'on va mettre dans la classe de transfert (**CompteDTO**) toujours avec la même interface graphique.
 
 
-Créez un fichier **dto2.md** dans ton repo pour garder ta réponse avec le format suivant:
+Créez un fichier **dto2.md** dans votre repo pour garder votre réponse avec le format suivant :
 ```md
 # PersonneDTO
 - ID: Long
